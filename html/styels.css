@@ -1,74 +1,40 @@
-.terms-section {
-    color: rgb(121, 62, 62);
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 80px;
-    text-align: justify;
-  }
-  
-  .terms-section > p {
-    margin-top: 20px;
-  }
-  
-  .title{
-    /* background-color: #FFD700; */
-    position: absolute;
-    
-    right:  2%;
-    margin: 25px;
-    display: inline-block;
-    height: 300px;
-    width: 40%;
-    text-align: right;
-    }
-    .title-h2{
-      font-size: 4rem;
-      font-family: 'Passions Conflict', cursive;
-      color: #FF4500;
-      animation: mymove 3s infinite;
-      animation-direction: alternate;
-    }
-    
-    @keyframes mymove {
-     0%   { left: 0px; top: 0px;}
-     50%  { left: 100px; top: 0px;}
-     100% { left: 0px; top: 0px;}
-    }
-    .img{
-      height: 200px;
-      position: absolute;
-      right: 30%;
-      padding-bottom: 3%;
-      border-radius: 20%;
-      animation: 5s infinite;
-    }
-    @keyframes fadeimage {
-      0%{
-        opacity: 0.1;
-      }
-      50%{
-        opacity: 1;
-      }
-      100%{
-        opacity: 0.1;
-      }
-    }
-    
-    .overlay {
-    position: absolute;
-      bottom: 3%;
-      width: 70%;
-      transition: .5s ease;
-      opacity:0;
-      color: #FAF4FF;
-      font-size: 12px;
-      padding-left: 215px;
-      text-align: center;
-    }
-    
-    .title:hover .overlay {
-      opacity: 1;
-    }
+.title-h2{
+  font-size: 3rem;
+  font-weight: 1;
+  font-family: 'Passions Conflict', cursive;
+  color: #FF4500;
+  animation: mymove 0.8s linear infinite;
+  animation-direction: alternate;
+  text-align: right;
+  margin: 2px;
+}
+
+@keyframes mymove {
+ 0% {transform: translateX(-100px);}
+ 50% {transform: translateX(-50px);}
+ 100% {transform: translateX(0px);}
+}
+
+.image{
+  height: 200px;
+  position: absolute;
+  right: 10%;
+  border-radius: 10%;
+  /* margin-bottom: 5rem; */
+  padding-bottom: 2.5rem;
+}
+
+.overlay {
+  position: relative;
+  left: 27.9rem;
+  top: 6.5rem;
+  opacity:0;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.title:hover .overlay {
+  opacity: 1;
+}
