@@ -3,7 +3,7 @@
   font-weight: 1;
   font-family: 'Passions Conflict', cursive;
   color: #FF4500;
-  animation: mymove 0.8s linear infinite;
+  animation: mymove 1s linear infinite;
   animation-direction: alternate;
   text-align: right;
   margin: 2px;
